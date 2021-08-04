@@ -1,13 +1,13 @@
 module.exports = {
   // app: ["@vuefront/checkout-app"],
-  // image: {
-  //   logo: {
-  //     path: "~/assets/img/VUE_JS.svg",
-  //   },
-  //   footerLogo: {
-  //     path: "~/assets/img/VUE_JS_Footer.svg",
-  //   },
-  // },
+  image: {
+    logo: {
+      path: "~/assets/img/VUE_JS.svg",
+    },
+    footerLogo: {
+      path: "~/assets/img/VUE_JS_Footer.svg",
+    },
+  },
   layouts: {
     "*": {
       headerMenu: [
@@ -47,6 +47,8 @@ module.exports = {
         [
           "Slideshow",
           {
+            sliderArrows: true,
+            sliderNav: true,
             items: [
               "https://img.dreamvention.com/vuefront/banners/Banner_demo_1.jpg",
               "https://img.dreamvention.com/vuefront/banners/Banner_demo_2.jpg",

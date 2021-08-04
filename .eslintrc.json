@@ -14,7 +14,7 @@
     //   }
     // },
     "extends": [
-      "plugin:vue/vue3-essential",
+      // "plugin:vue/vue3-essential",
       "prettier",
       "plugin:prettier/recommended"
     ]

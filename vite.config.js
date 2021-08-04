@@ -1,15 +1,14 @@
 import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
+import {createVuePlugin} from "vite-plugin-vue2"
 import eslintPlugin from "vite-plugin-eslint";
 import vuefrontPlugin from "vite-plugin-vue-vuefront";
 import voie from "vite-plugin-voie";
 import viteGraphlQl from "vite2-graphql-plugin";
-import { viteCommonjs } from "@originjs/vite-plugin-commonjs";
 import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: {
-    include: ["vuefront"],
+    include: ["vuefront", "vuelidate", "tb-skeleton", "vuelidate/lib/validators"],
   },
   resolve: {
     alias: {
@@ -17,15 +16,12 @@ export default defineConfig({
     },
   },
   plugins: [
-    // viteCommonjs(),
-    vue({
-      // skipPreBuild: true,
-    }),
+    createVuePlugin(),
     viteGraphlQl(),
     voie(),
-    eslintPlugin({
-      fix: true,
-    }),
+    // eslintPlugin({
+    //   fix: true,
+    // }),
     vuefrontPlugin(),
   ],
 });
