@@ -19,9 +19,9 @@ export default defineConfig({
     createVuePlugin(),
     viteGraphlQl(),
     voie(),
-    // eslintPlugin({
-    //   fix: true,
-    // }),
+    eslintPlugin({
+      fix: true,
+    }),
     vuefrontPlugin(),
   ],
 });
