@@ -134,6 +134,7 @@
         <vf-a-input
           id="input-small"
           :state="state"
+          v-model="input"
           size="sm"
           placeholder="Enter your name"
         />
@@ -147,6 +148,7 @@
         <vf-a-input
           id="input-default"
           :state="state"
+          v-model="input"
           placeholder="Enter your name"
         />
       </vf-m-col>
@@ -158,6 +160,7 @@
       </vf-m-col>
       <vf-m-col xs="10">
         <vf-a-input
+          v-model="input"
           id="input-large"
           :state="state"
           size="lg"
@@ -286,6 +289,7 @@
       </vf-m-col>
       <vf-m-col xs="10">
         <vf-a-textarea
+          v-model="textarea"
           id="input-small"
           :state="state"
           size="sm"
@@ -299,6 +303,7 @@
       </vf-m-col>
       <vf-m-col xs="10">
         <vf-a-textarea
+          v-model="textarea"
           id="input-default"
           :state="state"
           placeholder="Enter your name"
@@ -312,6 +317,7 @@
       </vf-m-col>
       <vf-m-col xs="10">
         <vf-a-textarea
+          v-model="textarea"
           id="input-large"
           :state="state"
           size="lg"
@@ -340,12 +346,14 @@ export default {
         light: "#eff2f7",
         dark: "#273444",
       },
+      textarea: "",
       checkbox1: false,
       radio1: false,
       radioGroup1: "A",
       checkboxGroup1: [],
       select: null,
       page: 2,
+      input: null,
       state: true,
       options2: [
         { value: null, text: "Please select an option" },
