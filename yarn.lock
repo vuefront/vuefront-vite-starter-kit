@@ -544,7 +544,7 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.172.tgz#aad774c28e7bfd7a67de25408e03ee5a8c3d028a"
   integrity sha512-/BHF5HAx3em7/KkzVKm3LrsD6HZAXuXO1AJZQ3cRRBZj4oHZDviWPYu0aEplAqDFNHZPW6d3G7KN+ONcCCC7pw==
 
-"@types/node@>=6", "@types/node@^16.7.6":
+"@types/node@>=6", "@types/node@^16.7.10":
   version "16.7.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.10.tgz#7aa732cc47341c12a16b7d562f519c2383b6d4fc"
   integrity sha512-S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==
@@ -564,7 +564,7 @@
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.3.tgz#781d360c282436494b32fe7d9f7f8e64b3118aa3"
   integrity sha512-fbF6oTd4sGGy0xjHPKAt+eS2CrxJ3+6gQ3FGcBoIJR2TLAyCkCyI8JqZNy+FeON0AhVgNJoUumVoZQjBFUqHkw==
 
-"@typescript-eslint/eslint-plugin@^4.29.3":
+"@typescript-eslint/eslint-plugin@^4.30.0":
   version "4.30.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.30.0.tgz#4a0c1ae96b953f4e67435e20248d812bfa55e4fb"
   integrity sha512-NgAnqk55RQ/SD+tZFD9aPwNSeHmDHHe5rtUyhIq0ZeCWZEvo4DK9rYz7v9HDuQZFvn320Ot+AikaCKMFKLlD0g==
@@ -589,7 +589,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@^4.29.3":
+"@typescript-eslint/parser@^4.30.0":
   version "4.30.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.30.0.tgz#6abd720f66bd790f3e0e80c3be77180c8fcb192d"
   integrity sha512-HJ0XuluSZSxeboLU7Q2VQ6eLlCwXPBOGnA7CqgBnz2Db3JRQYyBDJgQnop6TZ+rsbSx5gEdWhw4rE4mDa1FnZg==
@@ -1458,11 +1458,6 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js@^3.16.4:
-  version "3.16.4"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.4.tgz#0fb1029a554fc2688c0963d7c900e188188a78e0"
-  integrity sha512-Tq4GVE6XCjE+hcyW6hPy0ofN3hwtLudz5ZRdrlCnsnD/xkm/PWQRudzYHiKgZKUcefV6Q57fhDHjZHJP5dpfSg==
-
 cosmiconfig@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-7.0.1.tgz#714d756522cace867867ccb4474c5d01bbae5d6d"
@@ -1711,10 +1706,10 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-plugin-prettier@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.1.tgz#e9ddb200efb6f3d05ffe83b1665a716af4a387e5"
-  integrity sha512-htg25EUYUeIhKHXjOinK4BgCcDwtLHjqaxCDsMy5nbnUMkKFvIhMVCp+5GFUXQ4Nr8lBsPqtGAqBenbpFqAA2g==
+eslint-plugin-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.0.0.tgz#8b99d1e4b8b24a762472b4567992023619cb98e0"
+  integrity sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -2167,7 +2162,7 @@ graphql-tag@^2.11.0, graphql-tag@^2.12.5, graphql-tag@^2.4.2:
   dependencies:
     tslib "^2.1.0"
 
-graphql@^15.5.1, graphql@^15.5.2:
+graphql@^15.5.2:
   version "15.5.2"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.5.2.tgz#efa19f8f2bf1a48eb7d5c85bf17e144ba8bb0480"
   integrity sha512-dZjLPWNQqYv0dqV2RNbiFed0LtSp6yd4jchsDGnuhDKa9OQHJYCfovaOEvY91w9gqbYO7Se9LKDTl3xxYva/3w==
@@ -4294,7 +4289,7 @@ vue@^3.0.5:
 
 vuefront@vuefront/vuefront#vue3:
   version "0.4.6"
-  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/46b36f94e07946b8fe405a4b368739d10c59abd0"
+  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/016183be8beeaf1b30524fafdd47f4ea92f13593"
   dependencies:
     "@jamescoyle/vue-icon" "^0.1.2"
     "@mdi/js" "^5.9.55"
@@ -4305,10 +4300,9 @@ vuefront@vuefront/vuefront#vue3:
     axios "^0.21.1"
     color "^4.0.1"
     concurrently "^6.2.1"
-    core-js "^3.16.4"
     form-data "^4.0.0"
     global "^4.4.0"
-    graphql "^15.5.1"
+    graphql "^15.5.2"
     graphql-tag "^2.12.5"
     lodash "^4.17.21"
     lodash-es "^4.17.21"
@@ -4316,6 +4310,7 @@ vuefront@vuefront/vuefront#vue3:
     omit-deep-lodash "^1.1.5"
     tailwindcss "2.2.9"
     traverse "^0.6.6"
+    vue-easy-lightbox "^1.2.3"
     vue-image-lightbox "^7.2.0"
     vue-lazy-hydration "^2.0.0-beta.4"
     vue-skeletor "^1.0.6"

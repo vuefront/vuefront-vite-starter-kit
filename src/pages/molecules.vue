@@ -160,9 +160,10 @@
     <vf-m-table-horizontal striped hover :fields="fields" :items="items" />
   </vf-m-container>
 </template>
-<script>
+<script lang="ts">
 import { mdiAccountOutline } from "@mdi/js";
-export default {
+import {defineComponent} from "vue"
+export default defineComponent({
   data() {
     return {
       mdiAccountOutline,
@@ -257,5 +258,5 @@ export default {
       ],
     };
   },
-};
+});
 </script>
