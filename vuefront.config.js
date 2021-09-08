@@ -26,6 +26,10 @@ module.exports = {
           {
             links: [
               {
+                to: "/store/manufacturer",
+                text: "Brands",
+              },
+              {
                 to: "/store/special",
                 text: "Special",
               },
