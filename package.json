@@ -20,7 +20,7 @@
     "vite-plugin-voie": "^0.7.3",
     "vite-plugin-vue-vuefront": "vuefront/vite-plugin-vue-vuefront#vue3",
     "vite2-graphql-plugin": "^0.0.4",
-    "vue": "^3.0.5",
+    "vue": "^3.2.10",
     "vuefront": "vuefront/vuefront#vue3",
     "vuex": "^4.0.2"
   },
