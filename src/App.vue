@@ -1,7 +1,14 @@
 <template>
-  <suspense>
-    <router-view />
-  </suspense>
+  <router-view v-slot="{ Component }">
+    <suspense>
+      <template #default>
+        <component :is="Component" loaded />
+      </template>
+      <template #fallback>
+        <component :is="Component" :loaded="false" />
+      </template>
+    </suspense>
+  </router-view>
 </template>
 
 <script lang="ts">
