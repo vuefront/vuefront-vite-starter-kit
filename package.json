@@ -1,7 +1,7 @@
 {
   "name": "vuefront-vite",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "node server",
     "build": "yarn build:client && yarn build:server",
