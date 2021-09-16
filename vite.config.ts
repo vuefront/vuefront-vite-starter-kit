@@ -5,20 +5,40 @@ import vuefrontPlugin from "vite-plugin-vue-vuefront";
 import voie from "vite-plugin-voie";
 import viteGraphlQl from "vite2-graphql-plugin";
 import path from "path";
+export const ssrTransformCustomDir = () => {
+  return {
+    props: [],
+    needRuntime: true,
+  };
+};
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: {
-    include: ["vuefront", "vuefront/lib/seo"],
+    include: [
+      "omit-deep-lodash",
+      "apollo-boost",
+      "isomorphic-fetch",
+      "vue-meta/ssr",
+      "cookie",
+      "vite-plugin-vue-vuefront/installComponents",
+    ],
+    exclude: ["vue-demi"],
   },
   resolve: {
     alias: {
       "~": path.resolve(__dirname, "./src"),
-      "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
     },
   },
   plugins: [
     vue({
-      // skipPreBuild: true,
+      template: {
+        ssr: true,
+        compilerOptions: {
+          directiveTransforms: {
+            lazy: ssrTransformCustomDir,
+          },
+        },
+      },
     }),
     viteGraphlQl(),
     voie(),

@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "vuefront": {
+      "signature": "387460a554bdbd1c5c729dd0a25ccb07",
+      "file": true
+    },
+    "vite-plugin-vue-vuefront": {
+      "signature": "b5864fed6fb9f3e95cb20e96e067cbe9",
+      "file": true
+    }
+  }
+}
