@@ -13,17 +13,6 @@ export const ssrTransformCustomDir = () => {
 };
 // https://vitejs.dev/config/
 export default defineConfig({
-  optimizeDeps: {
-    include: [
-      "omit-deep-lodash",
-      "apollo-boost",
-      "isomorphic-fetch",
-      "vue-meta/ssr",
-      "cookie",
-      "vite-plugin-vue-vuefront/installComponents",
-    ],
-    exclude: ["vue-demi"],
-  },
   resolve: {
     alias: {
       "~": path.resolve(__dirname, "./src"),
