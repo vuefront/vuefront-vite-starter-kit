@@ -5,6 +5,8 @@ import vuefrontPlugin from "vite-plugin-vue-vuefront";
 import voie from "vite-plugin-voie";
 import viteGraphlQl from "vite2-graphql-plugin";
 import path from "path";
+import { visualizer } from "rollup-plugin-visualizer";
+import { optimizeLodashImports } from "@optimize-lodash/rollup-plugin";
 
 export const ssrTransformCustomDir = () => {
   return {
@@ -21,6 +23,7 @@ export default defineConfig({
     },
   },
   plugins: [
+    visualizer(),
     vue({
       template: {
         ssr: true,
@@ -37,5 +40,6 @@ export default defineConfig({
       fix: true,
     }),
     vuefrontPlugin(),
+    optimizeLodashImports(),
   ],
 });
