@@ -5,6 +5,7 @@ import vuefrontPlugin from "vite-plugin-vue-vuefront";
 import voie from "vite-plugin-voie";
 import viteGraphlQl from "vite2-graphql-plugin";
 import path from "path";
+
 export const ssrTransformCustomDir = () => {
   return {
     props: [],
@@ -16,6 +17,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "~": path.resolve(__dirname, "./src"),
+      "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
     },
   },
   plugins: [

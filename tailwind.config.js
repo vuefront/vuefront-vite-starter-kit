@@ -1,6 +1,13 @@
 module.exports = {
   darkMode: false, // or 'media' or 'class'
-  purge: false,
+  purge: {
+    content: [
+      "./src/components/**/*.vue",
+      "./node_module/vuefront/**/*.vue",
+      "./node_module/@vuefront/checkout-app/**/*.vue",
+    ],
+    safelist: [/^vf-/],
+  },
   // theme: {
   //   extend: {
   //     vuefront: {
