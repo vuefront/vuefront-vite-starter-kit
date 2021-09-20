@@ -3,8 +3,8 @@ module.exports = {
   purge: {
     content: [
       "./src/components/**/*.vue",
-      "./node_module/vuefront/**/*.vue",
-      "./node_module/@vuefront/checkout-app/**/*.vue",
+      "./node_modules/vuefront/lib/**/*.vue",
+      "./node_modules/@vuefront/checkout-app/**/*.vue",
     ],
     safelist: [/^vf-/, /^md:vf-/, /^sm:vf-/, /^lg:vf-/],
   },
