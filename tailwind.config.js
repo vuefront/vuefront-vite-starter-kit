@@ -6,7 +6,7 @@ module.exports = {
       "./node_module/vuefront/**/*.vue",
       "./node_module/@vuefront/checkout-app/**/*.vue",
     ],
-    safelist: [/^vf-/],
+    safelist: [/^vf-/, /^md:vf-/, /^sm:vf-/, /^lg:vf-/],
   },
   // theme: {
   //   extend: {
