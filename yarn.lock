@@ -3678,8 +3678,8 @@ vite-plugin-voie@^0.7.3:
     voie-pages "^0.4.0"
 
 vite-plugin-vue-vuefront@vuefront/vite-plugin-vue-vuefront#vue3:
-  version "0.0.6"
-  resolved "https://codeload.github.com/vuefront/vite-plugin-vue-vuefront/tar.gz/4a586bd3ea9b7c1bafb4936ede09ce98576d8b04"
+  version "0.0.7"
+  resolved "https://codeload.github.com/vuefront/vite-plugin-vue-vuefront/tar.gz/e51504d6de4e340ffbc2b52580f9f6f954a91a99"
   dependencies:
     "@vue/compiler-sfc" "^3.2.10"
     apollo-boost "^0.4.9"
