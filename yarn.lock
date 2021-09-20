@@ -3731,8 +3731,9 @@ vite-plugin-voie@^0.7.3:
     glob-to-regexp "^0.4.1"
     voie-pages "^0.4.0"
 
-"vite-plugin-vue-vuefront@file:.yalc/vite-plugin-vue-vuefront":
-  version "0.0.9"
+vite-plugin-vue-vuefront@vuefront/vite-plugin-vue-vuefront#vue3:
+  version "0.0.10"
+  resolved "https://codeload.github.com/vuefront/vite-plugin-vue-vuefront/tar.gz/4a3e29e5a1daa66560be10a41fedae8165d54a28"
   dependencies:
     "@vue/compiler-sfc" "^3.2.10"
     apollo-boost "^0.4.9"
@@ -3976,8 +3977,9 @@ vue@^3.2.10:
     "@vue/runtime-dom" "3.2.12"
     "@vue/shared" "3.2.12"
 
-"vuefront@file:.yalc/vuefront":
+vuefront@vuefront/vuefront#vue3:
   version "0.4.11"
+  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/e73d8cb7305612ad8a8107520a4d0f4c4381cc6b"
   dependencies:
     "@bundled-es-modules/axios" "^0.21.1"
     "@jamescoyle/vue-icon" "^0.1.2"
