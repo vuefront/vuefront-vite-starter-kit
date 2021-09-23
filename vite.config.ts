@@ -15,31 +15,37 @@ export const ssrTransformCustomDir = () => {
   };
 };
 // https://vitejs.dev/config/
-export default defineConfig({
-  resolve: {
-    alias: {
-      "~": path.resolve(__dirname, "./src"),
-      "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
+export default defineConfig(({ mode }) => {
+  const plugins = [];
+  if (mode === "production") {
+    plugins.push(optimizeLodashImports());
+    plugins.push(visualizer());
+  }
+  return {
+    resolve: {
+      alias: {
+        "~": path.resolve(__dirname, "./src"),
+        "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
+      },
     },
-  },
-  plugins: [
-    visualizer(),
-    vue({
-      template: {
-        ssr: true,
-        compilerOptions: {
-          directiveTransforms: {
-            lazy: ssrTransformCustomDir,
+    plugins: [
+      vue({
+        template: {
+          ssr: true,
+          compilerOptions: {
+            directiveTransforms: {
+              lazy: ssrTransformCustomDir,
+            },
           },
         },
-      },
-    }),
-    viteGraphlQl(),
-    voie(),
-    eslintPlugin({
-      fix: true,
-    }),
-    vuefrontPlugin(),
-    optimizeLodashImports(),
-  ],
+      }),
+      viteGraphlQl(),
+      voie(),
+      eslintPlugin({
+        fix: true,
+      }),
+      vuefrontPlugin(),
+      ...plugins,
+    ],
+  };
 });
