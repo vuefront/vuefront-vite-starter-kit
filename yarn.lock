@@ -1626,6 +1626,11 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
+faker@^5.5.3:
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/faker/-/faker-5.5.3.tgz#c57974ee484431b25205c2c8dc09fda861e51e0e"
+  integrity sha512-wLTv2a28wjUyWkbnX7u/ABZBkUkIF2fCd73V6P2oFqEGEktDfzWx4UxrSqtPRw0xPRAcjeAOIiJWqZm3pP4u3g==
+
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -3978,8 +3983,8 @@ vue@^3.2.10:
     "@vue/shared" "3.2.12"
 
 vuefront@vuefront/vuefront#vue3:
-  version "0.4.11"
-  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/e73d8cb7305612ad8a8107520a4d0f4c4381cc6b"
+  version "0.4.12"
+  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/90ce4db67bac82d7e7c47b3a674b40547b38133f"
   dependencies:
     "@bundled-es-modules/axios" "^0.21.1"
     "@jamescoyle/vue-icon" "^0.1.2"
@@ -3988,6 +3993,7 @@ vuefront@vuefront/vuefront#vue3:
     "@vuelidate/core" "^2.0.0-alpha.24"
     "@vuelidate/validators" "^2.0.0-alpha.21"
     color "^4.0.1"
+    faker "^5.5.3"
     graphql-tag "^2.12.5"
     isomorphic-form-data "^2.0.0"
     lodash "^4.17.21"
