@@ -3983,8 +3983,8 @@ vue@^3.2.10:
     "@vue/shared" "3.2.12"
 
 vuefront@vuefront/vuefront#vue3:
-  version "0.4.12"
-  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/90ce4db67bac82d7e7c47b3a674b40547b38133f"
+  version "0.4.13"
+  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/ab4381f511e093ec4ffdeae359f57459a14c3e08"
   dependencies:
     "@bundled-es-modules/axios" "^0.21.1"
     "@jamescoyle/vue-icon" "^0.1.2"
