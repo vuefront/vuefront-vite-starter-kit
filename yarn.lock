@@ -4204,9 +4204,9 @@ vue@^3.2.10:
     "@vue/server-renderer" "3.2.20"
     "@vue/shared" "3.2.20"
 
-vuefront@vuefront/vuefront#45ae4db405e03b4c29fe7b24b992db3e525cf252:
-  version "0.4.14"
-  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/45ae4db405e03b4c29fe7b24b992db3e525cf252"
+vuefront@vuefront/vuefront#vue3:
+  version "0.4.15"
+  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/8126e24530afddc45bf870bde1ce8f90f36f3457"
   dependencies:
     "@bundled-es-modules/axios" "^0.21.1"
     "@jamescoyle/vue-icon" "^0.1.2"
