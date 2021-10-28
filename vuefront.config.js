@@ -18,9 +18,22 @@ module.exports = {
           },
         ],
       ],
-      footerLeft: ["Pages"],
-      footerCenter: ["AccountLinks"],
-      footerRight: [
+      footer1: ["Pages"],
+      footer2: [
+        [
+          "ExtraLinks",
+          {
+            links: [
+              {
+                to: "/contact",
+                text: "Contact Us",
+              },
+            ],
+          },
+        ],
+      ],
+      footer3: ["AccountLinks"],
+      footer4: [
         [
           "ExtraLinks",
           {
@@ -37,17 +50,13 @@ module.exports = {
                 to: "/store/compare",
                 text: "Compare",
               },
-              {
-                to: "/contact",
-                text: "Contact Us",
-              },
             ],
           },
         ],
       ],
     },
     "/": {
-      contentTop: [
+      contentFullTop: [
         [
           "Slideshow",
           {
@@ -59,10 +68,8 @@ module.exports = {
             ],
           },
         ],
-        "LatestProduct",
-        "SpecialProduct",
-        "LatestPost",
       ],
+      contentTop: ["LatestProduct", "SpecialProduct", "LatestPost"],
     },
     "/search/*": {
       contentBottom: ["SearchProduct", "SearchPost"],
@@ -80,7 +87,6 @@ module.exports = {
     },
     "/blog/category*": {
       columnRight: [
-        "Search",
         "BlogCategory",
         [
           "LatestPost",

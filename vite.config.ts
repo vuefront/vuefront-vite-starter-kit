@@ -22,10 +22,12 @@ export default defineConfig(({ mode }) => {
     plugins.push(visualizer());
   }
   return {
+    optimizeDeps: {
+      include: ["lodash"],
+    },
     resolve: {
       alias: {
         "~": path.resolve(__dirname, "./src"),
-        "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
       },
     },
     plugins: [
