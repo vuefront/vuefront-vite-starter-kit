@@ -3937,8 +3937,9 @@ vite-plugin-voie@^0.7.3:
     glob-to-regexp "^0.4.1"
     voie-pages "^0.4.0"
 
-"vite-plugin-vue-vuefront@file:.yalc/vite-plugin-vue-vuefront":
+vite-plugin-vue-vuefront@vuefront/vite-plugin-vue-vuefront#9d9e4dda7d71677bfe1cd865e2f466cd802c4e92:
   version "0.0.10"
+  resolved "https://codeload.github.com/vuefront/vite-plugin-vue-vuefront/tar.gz/9d9e4dda7d71677bfe1cd865e2f466cd802c4e92"
   dependencies:
     "@vue/compiler-sfc" "^3.2.20"
     apollo-boost "^0.4.9"
