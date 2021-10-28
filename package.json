@@ -29,7 +29,7 @@
     "vite-plugin-vue-vuefront": "vuefront/vite-plugin-vue-vuefront#9d9e4dda7d71677bfe1cd865e2f466cd802c4e92",
     "vite2-graphql-plugin": "^0.0.4",
     "vue": "^3.2.10",
-    "vuefront": "vuefront/vuefront#7c8154f2f98b63dc9a8ea6097e30ac7dd058dbfc",
+    "vuefront": "vuefront/vuefront#45ae4db405e03b4c29fe7b24b992db3e525cf252",
     "vuex": "^4.0.2"
   },
   "devDependencies": {

@@ -3941,15 +3941,15 @@ vite-plugin-vue-vuefront@vuefront/vite-plugin-vue-vuefront#9d9e4dda7d71677bfe1cd
   version "0.0.10"
   resolved "https://codeload.github.com/vuefront/vite-plugin-vue-vuefront/tar.gz/9d9e4dda7d71677bfe1cd865e2f466cd802c4e92"
   dependencies:
-    "@vue/compiler-sfc" "^3.2.20"
+    "@vue/compiler-sfc" "^3.2.10"
     apollo-boost "^0.4.9"
     cookie "^0.4.1"
     dotenv "^10.0.0"
     isomorphic-fetch "^3.0.0"
     lodash "^4.17.21"
     querystring "^0.2.1"
-    vue-i18n "^9.2.0-beta.15"
-    vue-meta "^3.0.0-alpha.9"
+    vue-i18n "9.1.7"
+    vue-meta "^3.0.0-alpha.2"
     vue3-lazyload "^0.2.2-beta"
 
 vite2-graphql-plugin@^0.0.4:
@@ -4186,9 +4186,9 @@ vue@^3.2.10:
     "@vue/server-renderer" "3.2.20"
     "@vue/shared" "3.2.20"
 
-vuefront@vuefront/vuefront#7c8154f2f98b63dc9a8ea6097e30ac7dd058dbfc:
+vuefront@vuefront/vuefront#45ae4db405e03b4c29fe7b24b992db3e525cf252:
   version "0.4.14"
-  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/7c8154f2f98b63dc9a8ea6097e30ac7dd058dbfc"
+  resolved "https://codeload.github.com/vuefront/vuefront/tar.gz/45ae4db405e03b4c29fe7b24b992db3e525cf252"
   dependencies:
     "@bundled-es-modules/axios" "^0.21.1"
     "@jamescoyle/vue-icon" "^0.1.2"
