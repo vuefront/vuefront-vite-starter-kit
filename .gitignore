@@ -6,3 +6,7 @@ dist-ssr
 .vscode
 .idea
 .env
+package.json
+.gitignore
+.yalc
+yalc.lock
