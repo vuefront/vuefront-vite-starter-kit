@@ -29,7 +29,7 @@
     "vite-plugin-vue-vuefront": "^0.1.1",
     "vite2-graphql-plugin": "^0.0.4",
     "vue": "^3.2.10",
-    "vuefront": "^0.5.2",
+    "vuefront": "file:.yalc/vuefront",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
