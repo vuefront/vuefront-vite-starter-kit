@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import eslintPlugin from "vite-plugin-eslint";
 import vuefrontPlugin from "vite-plugin-vue-vuefront";
-import voie from "vite-plugin-voie";
+// import voie from "vite-plugin-voie";
 import viteGraphlQl from "vite2-graphql-plugin";
 import path from "path";
 import { visualizer } from "rollup-plugin-visualizer";
@@ -42,7 +42,7 @@ export default defineConfig(({ mode }) => {
         },
       }),
       viteGraphlQl(),
-      voie(),
+      // voie(),
       eslintPlugin({
         fix: true,
       }),
