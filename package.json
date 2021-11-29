@@ -26,7 +26,7 @@
     "tailwindcss": "^2.2.19",
     "vite-plugin-eslint": "^1.3.0",
     "vite-plugin-voie": "^0.7.3",
-    "vite-plugin-vue-vuefront": "^0.1.3",
+    "vite-plugin-vue-vuefront": "^0.1.4",
     "vite2-graphql-plugin": "^0.0.4",
     "vue": "^3.2.10",
     "vuefront": "^0.5.5",

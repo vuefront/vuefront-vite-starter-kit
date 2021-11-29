@@ -3938,10 +3938,10 @@ vite-plugin-voie@^0.7.3:
     glob-to-regexp "^0.4.1"
     voie-pages "^0.4.0"
 
-vite-plugin-vue-vuefront@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue-vuefront/-/vite-plugin-vue-vuefront-0.1.3.tgz#ae18757c9d7d5194a356edd74d032152af4f5e6d"
-  integrity sha512-VBN90utg6q3aCTaWpQnY4U9gs0832wZeGSPebYFRw5ZCe/euAhDqFhZQaK/iYRuHnQmd6Vv0YfOEqNhZWTaUew==
+vite-plugin-vue-vuefront@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue-vuefront/-/vite-plugin-vue-vuefront-0.1.4.tgz#cc686bab9910bba52bd419abe3696665bb9c8186"
+  integrity sha512-HfNk/jd4tbFYIowOhJLC7qyO0sv0rMqXcbE0M6ow8CxVDa3CxZZt5Qjsi2KBotTiNr4p188LDs4dyHFq36ERjA==
   dependencies:
     "@types/chalk" "^2.2.0"
     "@types/micromatch" "^4.0.2"
