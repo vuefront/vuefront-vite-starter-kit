@@ -4,7 +4,12 @@ module.exports = {
     "./node_modules/vuefront/lib/**/*.vue",
     "./node_modules/@vuefront/checkout-app/**/*.vue",
   ],
-  safelist: [/^vf-/, /^md:vf-/, /^sm:vf-/, /^lg:vf-/],
+  safelist: [
+    {
+      variants: ["md", "sm", "lg"],
+      pattern: /^vf-/,
+    },
+  ],
   // theme: {
   //   extend: {
   //     vuefront: {

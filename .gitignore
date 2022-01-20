@@ -10,3 +10,4 @@ package.json
 .gitignore
 .yalc
 yalc.lock
+src/pages

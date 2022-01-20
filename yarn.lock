@@ -3727,8 +3727,10 @@ vite-plugin-voie@^0.7.3:
     glob-to-regexp "^0.4.1"
     voie-pages "^0.4.0"
 
-"vite-plugin-vue-vuefront@file:.yalc/vite-plugin-vue-vuefront":
-  version "0.1.4"
+vite-plugin-vue-vuefront@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue-vuefront/-/vite-plugin-vue-vuefront-0.1.5.tgz#648e515bdeaa57bd69a1bbeb294bfceb951d3469"
+  integrity sha512-Pvugix25xf5ZV58DW3cmRVZaIHo9jy4A/6H3Tyk2aNhaiSvGuMnNBjekoWF/Kax9osJgaes0DlR0WIWRkY+/fg==
   dependencies:
     "@types/chalk" "^2.2.0"
     "@types/micromatch" "^4.0.2"
@@ -3973,8 +3975,10 @@ vue@^3.2.10:
     "@vue/server-renderer" "3.2.27"
     "@vue/shared" "3.2.27"
 
-"vuefront@file:.yalc/vuefront":
-  version "0.5.5"
+vuefront@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.5.6.tgz#dd7c8f81bacee90c0b849926aabe20251a7bd941"
+  integrity sha512-Bheg+wkgky5B6r4WSBQOiDAswZrPxDbBMQ1cl/ucpxffRq+qsdDRsfAI4t6JWEoVz1I+CxqEh8tU7muGuu7+9g==
   dependencies:
     "@bundled-es-modules/axios" "^0.21.1"
     "@jamescoyle/vue-icon" "^0.1.2"
