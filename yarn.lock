@@ -340,10 +340,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.9.tgz#0b7f161afb5b1cc12518d29b2cdc7175d5490628"
   integrity sha512-5dNBXu/FOER+EXnyah7rn8xlNrfMOQb/qXnw4NQgLkCygKBKhdmF/CA5oXVOKZLBEahw8s2WP9LxIcN/oDDRgQ==
 
-"@types/node@^17.0.12":
-  version "17.0.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.12.tgz#f7aa331b27f08244888c47b7df126184bc2339c5"
-  integrity sha512-4YpbAsnJXWYK/fpTVFlMIcUIho2AYCi4wg5aNPrG1ng7fn/1/RZfCIpRCiBX+12RVa34RluilnvCqD+g3KiSiA==
+"@types/node@^17.0.13":
+  version "17.0.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.13.tgz#5ed7ed7c662948335fcad6c412bb42d99ea754e3"
+  integrity sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -3793,10 +3793,10 @@ vite-plugin-voie@^0.7.3:
     glob-to-regexp "^0.4.1"
     voie-pages "^0.4.0"
 
-vite-plugin-vue-vuefront@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue-vuefront/-/vite-plugin-vue-vuefront-0.1.6.tgz#0945a327a9fa50569a0ffc99282f83de1852e119"
-  integrity sha512-QiN5QO4jUfSOk5x1bozijXjkaBUk+Axn3qPSg5OdouaCZFQLF1NWtJ8MqWWDZ5G37ylOQg09KPY70NAi46FxvQ==
+vite-plugin-vue-vuefront@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue-vuefront/-/vite-plugin-vue-vuefront-0.1.7.tgz#d5a00a784c3586340de7f331c8a60da3219408bb"
+  integrity sha512-IPw0IAYdfovn8X4zPQpk97jMVLZEwXpuyRCltzYwRvojs93T990qgo5SYInqOhUtAMM98ECj84txyz3w8ZW9OA==
   dependencies:
     "@types/chalk" "^2.2.0"
     "@types/micromatch" "^4.0.2"
@@ -4041,10 +4041,10 @@ vue@^3.2.10:
     "@vue/server-renderer" "3.2.27"
     "@vue/shared" "3.2.27"
 
-vuefront@^0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.5.7.tgz#441a6dc5842e955422e93f39e1d12bef43e2a298"
-  integrity sha512-jMn6Tdi78fbaWenSua7ajFc4tmhN7uIV/AZApW92vUPI9y8/K65nyX5bcp1W1ijd3CTf8qpn1Tq8ZcJF6TU9Ww==
+vuefront@^0.5.8:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/vuefront/-/vuefront-0.5.8.tgz#d9dee9977ce77f63b4c0ea6be383069ce90714e1"
+  integrity sha512-unxCaDCJYQlFZVYiQFMZiZzKb5CP4OraaKDUVnCff5z0WRzQ8tvPPmSlKNSKthROx/CVQC5LRKFOynMMh+P33Q==
   dependencies:
     "@bundled-es-modules/axios" "^0.21.1"
     "@jamescoyle/vue-icon" "^0.1.2"
