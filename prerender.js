@@ -9,7 +9,10 @@ const _ = require("lodash");
 const toAbsolute = (p) => path.resolve(__dirname, p);
 
 const manifest = require("./dist/static/ssr-manifest.json");
-fs.copyFileSync(toAbsolute("dist/static/index.html"),toAbsolute("dist/static/200.html"))
+fs.copyFileSync(
+  toAbsolute("dist/static/index.html"),
+  toAbsolute("dist/static/200.html")
+);
 const template = fs.readFileSync(toAbsolute("dist/static/200.html"), "utf-8");
 const { render } = require("./dist/server/entry-server.js");
 const sleep = (ms) =>
@@ -63,7 +66,7 @@ routesToPrerender.push("/");
         `window.__syncState__ = ${JSON.stringify(syncState)}`
       );
 
-    const filePath = `dist/static${url === "/" ? "/index2" : url}.html`;
+    const filePath = `dist/static${url === "/" ? "/index" : url}.html`;
     fs.mkdirSync(path.dirname(toAbsolute(filePath)), { recursive: true });
 
     fs.writeFileSync(toAbsolute(filePath), html);
